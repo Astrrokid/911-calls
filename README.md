@@ -13,7 +13,6 @@ The dataset used for this analysis (`911.csv`) contains emergency calls informat
 - `timeStamp`: Timestamp of the emergency call
 - `twp`: Township of the emergency call location
 - `addr`: Address of the emergency call location
-- `e`: Dummy variable (always 1)
 
 The dataset provides a comprehensive overview of emergency calls made over a period of time.
 
