@@ -32,13 +32,13 @@ The dataset provides a comprehensive overview of emergency calls made over a per
 5. Insights and Findings: Key insights and findings are documented based on the EDA results, highlighting notable patterns, trends, and anomalies in the emergency calls data.
 
 ## Files Included
-- 911_calls.ipynb: Jupyter Notebook containing the Python code for data loading, exploration, preprocessing, and analysis.
+- 911-calls.ipynb: Jupyter Notebook containing the Python code for data loading, exploration, preprocessing, and analysis.
 - 911.csv: Dataset containing emergency calls information.
 - README.md: This file providing an overview of the project.
 
 ## How to Use
 1. Clone the repository to your local machine.
-2. Open the 911_calls.ipynb file using Jupyter Notebook or any compatible IDE.
+2. Open the 911-calls.ipynb file using Jupyter Notebook or any compatible IDE.
 3. Run the code cells sequentially to reproduce the analysis.
 4. Explore the visualizations and insights generated from the analysis.
 5. Modify or extend the analysis as needed for further exploration or research.
