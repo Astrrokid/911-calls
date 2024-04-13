@@ -24,11 +24,22 @@ The dataset provides a comprehensive overview of emergency calls made over a per
 - seaborn
 
 ## Analysis Steps
-1. Data Loading: The dataset is loaded into a pandas DataFrame for analysis.
-2. Data Exploration: Basic exploration of the dataset is performed to understand its structure, features, and summary statistics.
-3. Data Preprocessing: Data cleaning and preprocessing techniques are applied to handle missing values, convert data types, and prepare the dataset for analysis.
-4. Exploratory Data Analysis (EDA): Various visualizations such as histograms, scatter plots, and time series plots are used to analyze the distribution of emergency calls, trends over time, top townships with emergency calls, and more.
-5. Insights and Findings: Key insights and findings are documented based on the EDA results, highlighting notable patterns, trends, and anomalies in the emergency calls data.
+
+1. **Data Loading and Inspection**: Loading the dataset and checking basic information about the data.
+
+2. **Exploratory Data Analysis (EDA)**:
+   - Exploring the top ZIP codes and townships with the most emergency calls.
+   - Extracting the reason for the call from the title column.
+   - Visualizing the count of emergency calls by reason.
+
+3. **Feature Engineering**:
+   - Converting the timestamp to datetime format.
+   - Extracting additional time-based features such as hour, month, and day of the week.
+   - Mapping numerical representations of days of the week to their respective names.
+
+4. **Temporal Analysis**:
+   - Visualizing emergency calls over time (by month and day of the week).
+   - Analyzing the correlation between days of the week and hours using heatmaps and clustermaps.
 
 ## Files Included
 - 911-calls.ipynb: Jupyter Notebook containing the Python code for data loading, exploration, preprocessing, and analysis.
